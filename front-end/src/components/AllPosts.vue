@@ -13,7 +13,7 @@
       >
       <router-link :to="{name:'SinglePost', params:{postId:image._id}}">
 
-        <div class="overflow-hidden  h-full">
+        <div class="overflow-hidden  h-full rounded-2xl border-2 border-grey border-solid border-opacity-75 shadow-lg">
           <img
             class="min-w-full h-full"
             v-bind:src="image.imageUrl"

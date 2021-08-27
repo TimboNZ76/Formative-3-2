@@ -6,7 +6,7 @@
       <img id="logo" src="../assets/logo-2.png" alt="logo" />
     </div>
     <div class="form">
-      <h2>Create New Post:</h2>
+      <h2 ><b>Create New Post:</b></h2><br>
       <form @submit.prevent="sendPost">
         <input type="text" placeholder="Title" v-model="post.title"/>
         <input type="text" placeholder="Author" v-model="post.author"/>

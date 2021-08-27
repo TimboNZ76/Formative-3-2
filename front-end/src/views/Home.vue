@@ -2,10 +2,10 @@
   <div class="home">
     <CreatePost @createdPost="getImages"/>
     
-      <div class="all-posts-component">
-    <h2 class="text-xl font-bold">Posts:</h2>
+      <div class="all-posts-component space-x-10">
+    <h2 class="text-xl font-bold py-10">Recent Posts:</h2>
     <div 
-      class="all-posts flex flex-wrap mx-1 my-1 justify-center"
+      class="all-posts flex flex-wrap mx-1 my-1 justify-center space-x-10"
       v-if="images.length >= 1"
     >
       <div

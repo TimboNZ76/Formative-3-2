@@ -1,7 +1,7 @@
 <!-- This is all the posts/images -->
 <template>
   <div class="all-posts-component">
-    <h2 class="text-xl font-bold">Posts:</h2>
+    <h2 class="text-xl font-bold">Recent Posts:</h2>
     <div 
       class="all-posts flex flex-wrap mx-1 my-1 justify-center"
       v-if="images.length >= 1"
